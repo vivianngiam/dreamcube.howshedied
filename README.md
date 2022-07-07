@@ -164,7 +164,7 @@ _For more detail, you should refer to the **[Project Handbook](https://github.co
 ## License
 
 © Copyright 2020 Local Projects, Inc., All Rights Reserved.
-_See `[LICENSE](LICENSE)` for more information._
+_See `[LICENSE](https://github.com/local-projects/dreamcube.itp.pitch.example.unity/blob/main/LICENSE))` for more information._
 
 ---
 

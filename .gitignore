@@ -30,15 +30,6 @@ Logs
 #recordings
 **/Recordings
 
-#fmod studio settings
-#**/FMODStudioSettings.asset
-
-#fmod studio Cache
-**/FMODStudioCache.asset
-**/FMODStudioCache.asset.meta
-
-#FMOD logs and Cache
-*/fmod_editor.log
 
 #application logs
 **/Logs
@@ -67,6 +58,8 @@ Logs
 # Visual Studio cache directory
 */.vs/
 .vs/
+**/obj/
+**/.vsconfig
 
 # Gradle cache directory
 .gradle/
@@ -93,6 +86,8 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+**/UserSettings
+
 
 # Unity3D generated file on crash reports
 sysinfo.txt

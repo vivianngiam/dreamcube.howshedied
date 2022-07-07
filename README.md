@@ -7,16 +7,6 @@ This program known as the _Pitch_ is the main software component for the _DreamC
 _For additional details about this project as a whole, you should refer to the [Project Handbook](https://github.com/local-projects/manutd.project-handbook)_
 
 
-Main
-<a href="http://build.localprojects.com/viewType.html?buildTypeId=DreamCubeTtw_DreamCubeTrainToWinPitchUnityMain&guest=1">
-<img src="http://build.localprojects.com/app/rest/builds/buildType:(id:DreamCubeTtw_DreamCubeTrainToWinPitchUnityMain)/statusIcon"/></a>
-
-QA
-<a href="http://build.localprojects.com/viewType.html?buildTypeId=DreamCubeTtw_DreamCubeTrainToWinPitchUnityQa&guest=1">
-<img src="http://build.localprojects.com/app/rest/builds/buildType:(id:DreamCubeTtw_DreamCubeTrainToWinPitchUnityQa)/statusIcon"/></a>
-
-
-
 <!-- TOC -->
 
 ## Table of Contents

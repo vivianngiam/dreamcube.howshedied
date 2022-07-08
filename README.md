@@ -1,6 +1,6 @@
 # dreamcube.itp.pitch.example.unity
 
-# DreamCube Train To Win Project
+# DreamCube Boilerplate Project
 
 This program known as the _Pitch_ is the main software component for the _DreamCube's_ interactive virtual reality room. The main attraction is an arcade-style ball game using a physical ball tracked in three-dimensions. It features surround video and audio cut scenes to create guided stories through championship seasons.
 

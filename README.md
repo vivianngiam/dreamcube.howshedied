@@ -74,7 +74,8 @@ OpenUPM is used for [Serilog.Sinks.Unity3D](https://openupm.com/packages/com.ser
 cd into your project and install then unity sink
 `openupm add com.serilog.sinks.unity3d`
 
-See the [manifest file](https://github.com/local-projects/dreamcube.pitch-app-shell.unity/blob/main/Dreamcube.pitch-app-shell/Packages/manifest.json) for additional packages installed through Unity's package manager.
+See the [manifest file](https://github.com/local-projects/dreamcube.itp.pitch.example.unity/blob/main/Packages/manifest.json)  
+for additional packages installed through Unity's package manager.
 
 <!-- Installation -->
 

@@ -15,6 +15,9 @@
 // limitations under the License.
 // </copyright>
 //-----------------------------------------------------------------------
+
+using System;
+
 namespace OdinSerializer
 {
     using UnityEngine;
@@ -26,20 +29,22 @@ namespace OdinSerializer
     public abstract class SerializedComponent : Component, ISerializationCallbackReceiver, ISupportsPrefabSerialization
     {
         [SerializeField, HideInInspector]
-        private SerializationData serializationData;
+        private SerializationData _serializationData;
 
-        SerializationData ISupportsPrefabSerialization.SerializationData { get { return this.serializationData; } set { this.serializationData = value; } }
+        SerializationData ISupportsPrefabSerialization.SerializationData { get { return this._serializationData; } set { this._serializationData = value; } }
 
+        [Obsolete]
         void ISerializationCallbackReceiver.OnAfterDeserialize()
         {
-            UnitySerializationUtility.DeserializeUnityObject(this, ref this.serializationData);
+            UnitySerializationUtility.DeserializeUnityObject(this, ref this._serializationData);
             this.OnAfterDeserialize();
         }
 
+        [Obsolete]
         void ISerializationCallbackReceiver.OnBeforeSerialize()
         {
             this.OnBeforeSerialize();
-            UnitySerializationUtility.SerializeUnityObject(this, ref this.serializationData);
+            UnitySerializationUtility.SerializeUnityObject(this, ref this._serializationData);
         }
 
         /// <summary>

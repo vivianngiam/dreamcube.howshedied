@@ -15,6 +15,9 @@
 // limitations under the License.
 // </copyright>
 //-----------------------------------------------------------------------
+
+using System;
+
 namespace OdinSerializer
 {
     using UnityEngine;
@@ -29,12 +32,14 @@ namespace OdinSerializer
         [SerializeField, HideInInspector]
         private SerializationData serializationData;
 
+        [Obsolete]
         void ISerializationCallbackReceiver.OnAfterDeserialize()
         {
             UnitySerializationUtility.DeserializeUnityObject(this, ref this.serializationData);
             this.OnAfterDeserialize();
         }
 
+        [Obsolete]
         void ISerializationCallbackReceiver.OnBeforeSerialize()
         {
             this.OnBeforeSerialize();

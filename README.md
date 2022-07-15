@@ -27,8 +27,7 @@ _For additional details about this project as a whole, you should refer to the [
 
 ### Resources
 
-- [Project Handbook](https://github.com/local-projects/manutd.project-handbook)
-- [CI Pipeline](http://build.localprojects.com/project/ManU)
+- [DreemCube Handbook]()
 
 ### Dependencies & Frameworks
 

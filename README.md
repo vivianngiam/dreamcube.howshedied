@@ -83,7 +83,9 @@ See the [manifest file](https://github.com/local-projects/dreamcube.pitch-app-sh
 
 1. Clone the repo:
 ```
-git clone --recurse-submodules https://github.com/local-projects/dreamcube.pitch-app-core.unity
+git clone https://github.com/local-projects/dreamcube.itp.pitch.example.unity.git
+cd dreamcube.itp.pitch.example.unity
+git submodule update --init --recursive
 ```
 
 2. Set the configuration file:
@@ -129,13 +131,9 @@ If the file does not exist it will be created using the default values at first 
 
 3. Open the project with [Unity Hub](https://unity3d.com/get-unity/download). It will prompt you to download the correct version of the Unity editor.
 
-4. Open the `App\_Scenes\_Main` scene.
+4. Open the `Assets\_DemoApp\Scenes\Base Scenes\Main_Demo.unity` scene.
 
-5. Open the `Addressables` tab [Window-> Asset Management -> Addressables].
-
-6. Click `Build -> New Build -> Default Build Script`.
-
-7. Build the project according to [Unity's documentation](https://docs.unity3d.com/Manual/PublishingBuilds.html).
+5. Build the project according to [Unity's documentation](https://docs.unity3d.com/Manual/PublishingBuilds.html).
 
 
 <!-- USAGE -->

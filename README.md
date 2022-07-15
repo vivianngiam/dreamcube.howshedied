@@ -2,9 +2,9 @@
 
 # DreamCube Boilerplate Project
 
-This program known as the _Pitch_ is the main software component for the _DreamCube's_ interactive virtual reality room. The main attraction is an arcade-style ball game using a physical ball tracked in three-dimensions. It features surround video and audio cut scenes to create guided stories through championship seasons.
+This program known as the _Pitch_ is the main software component needed to run for the _DreamCube's_ interactive virtual reality room. The main attraction is an arcade-style ball game using a physical ball tracked in three-dimensions. This repo contains two simple example scenes for modes of interaction.
 
-_For additional details about this project as a whole, you should refer to the [Project Handbook](https://github.com/local-projects/manutd.project-handbook)_
+_For additional details about this project as a whole, you should refer to the [Dreamcube Handbook]()_
 
 
 <!-- TOC -->

@@ -31,8 +31,8 @@ _For additional details about this project as a whole, you should refer to the [
 
 ### Dependencies & Frameworks
 
-The following submodules are used in compilation.
-- Addressables
+The following Packages are used in compilation: 
+
 - JetBrains Rider Editor
 - ProBuilder
 - Test Framework
@@ -56,17 +56,12 @@ The following applications are used in development.
 
 The following libraries and their dependencies are included in the `Plugins` folder.
 
-- [Newtonsoft.Json 12.0.3](https://www.nuget.org/packages/Newtonsoft.Json/)
 - [Serilog 2.9.0](https://www.nuget.org/packages/serilog/)
 - [Serilog.Sinks.File 5.0.0-dev-00880](https://www.nuget.org/packages/Serilog.Sinks.File/5.0.0-dev-00880)
 - [Google.Protobuf 3.11.4](https://www.nuget.org/packages/Google.Protobuf)
 - [DoTween](https://github.com/Demigiant/dotween)
 - [Odin - Serializer](https://github.com/TeamSirenix/odin-serializer)
 - [Unity UI Extensions](https://bitbucket.org/UnityUIExtensions)
-- [FMOD for Unity](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-161631?aid=1100l355n&gclid=CjwKCAiAzNj9BRBDEiwAPsL0d_vc0xfTtM6wHIY1iyJHxMc5aTb8ya7XVmjeK4mfO_wSZDS4KieusBoCAagQAvD_BwE&pubref=UnityAssets%2ADyn09%2A1723478829%2A67594162255%2A336275757769%2Ag%2A%2A%2Ab%2Ac%2Agclid%3DCjwKCAiAzNj9BRBDEiwAPsL0d_vc0xfTtM6wHIY1iyJHxMc5aTb8ya7XVmjeK4mfO_wSZDS4KieusBoCAagQAvD_BwE&utm_source=aff)
-
-The Following Packages are used
-- 
 
 #### Setting up Serilog
 

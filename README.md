@@ -27,7 +27,7 @@ _For additional details about this project as a whole, you should refer to the [
 
 ### Resources
 
-- [DreemCube Handbook]()
+- ~~~[DreamCube Handbook]()~~~
 
 ### Dependencies & Frameworks
 
@@ -123,29 +123,22 @@ If the file does not exist it will be created using the default values at first 
 }
 ```
 
-
-3. Open the project with [Unity Hub](https://unity3d.com/get-unity/download). It will prompt you to download the correct version of the Unity editor.
-
-4. Open the `Assets\_DemoApp\Scenes\Base Scenes\Main_Demo.unity` scene.
-
-5. Build the project according to [Unity's documentation](https://docs.unity3d.com/Manual/PublishingBuilds.html).
-
-
 <!-- USAGE -->
 
 ## Usage
 
-
+1. Open the project with [Unity Hub](https://unity3d.com/get-unity/download). It will prompt you to download the correct version of the Unity editor.
+2. Open the `Assets\_DemoApp\Scenes\Base Scenes\Main_Demo.unity` scene.
+3. Build the project according to [Unity's documentation](https://docs.unity3d.com/Manual/PublishingBuilds.html).
 
 
 <!-- TROUBLESHOOTING -->
-
 ## Troubleshooting
 
 _The program does not show on the correct displays._<br />
 In the Windows or GPU display manager, the displays should be tiled left to right with indices 1-4. Display 1 should set to the `primary screen`.
 
-_For more detail, you should refer to the **[Project Handbook](https://github.com/local-projects/manutd.project-handbook)**_
+_For more detail, you should refer to the ~~~** [Project Handbook]()**_~~~
 
 <!-- ROADMAP -->
 

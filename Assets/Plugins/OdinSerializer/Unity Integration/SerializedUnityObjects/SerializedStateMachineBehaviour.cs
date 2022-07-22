@@ -27,18 +27,20 @@ namespace OdinSerializer
     public abstract class SerializedStateMachineBehaviour : StateMachineBehaviour, ISerializationCallbackReceiver
     {
         [SerializeField, HideInInspector]
-        private SerializationData serializationData;
+        private SerializationData _serializationData;
 
+        [System.Obsolete]
         void ISerializationCallbackReceiver.OnAfterDeserialize()
         {
-            UnitySerializationUtility.DeserializeUnityObject(this, ref this.serializationData);
+            UnitySerializationUtility.DeserializeUnityObject(this, ref _serializationData);
             this.OnAfterDeserialize();
         }
 
+        [System.Obsolete]
         void ISerializationCallbackReceiver.OnBeforeSerialize()
         {
             this.OnBeforeSerialize();
-            UnitySerializationUtility.SerializeUnityObject(this, ref this.serializationData);
+            UnitySerializationUtility.SerializeUnityObject(this, ref _serializationData);
         }
 
         /// <summary>

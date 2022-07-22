@@ -194,7 +194,7 @@ namespace OdinSerializer
         public static bool OdinWillSerialize(MemberInfo member, bool serializeUnityFields, ISerializationPolicy policy = null)
         {
             Dictionary<MemberInfo, CachedSerializationBackendResult> cacheForPolicy;
-            
+
             if (policy == null || object.ReferenceEquals(policy, UnityPolicy))
             {
                 cacheForPolicy = OdinWillSerializeCache_UnityPolicy;
@@ -516,7 +516,7 @@ namespace OdinSerializer
 
             // Check for synclists if legacy networking is present
             // it was removed in 2018.2
-            if (!UnityVersion.IsVersionOrGreater(2018, 2)) 
+            if (!UnityVersion.IsVersionOrGreater(2018, 2))
             {
                 Type current = type.BaseType;
 
@@ -537,6 +537,7 @@ namespace OdinSerializer
         /// <summary>
         /// Not yet documented.
         /// </summary>
+        [Obsolete]
         public static void SerializeUnityObject(UnityEngine.Object unityObject, ref SerializationData data, bool serializeUnityFields = false, SerializationContext context = null)
         {
             if (unityObject == null)
@@ -577,7 +578,7 @@ namespace OdinSerializer
                     var stackFrames = new System.Diagnostics.StackTrace().GetFrames();
                     Type buildPipelineType = typeof(UnityEditor.BuildPipeline);
                     Type prefabUtilityType = typeof(UnityEditor.PrefabUtility);
-                    
+
 
                     for (int i = 0; i < stackFrames.Length; i++)
                     {
@@ -922,7 +923,7 @@ namespace OdinSerializer
 
                                 newContext.Value.Config.SerializationPolicy = serializationPolicy;
                                 newContext.Value.IndexReferenceResolver = resolver.Value;
-                                
+
                                 writer.Context = newContext;
 
                                 UnitySerializationUtility.SerializeUnityObject(unityObject, writer, serializeUnityFields);
@@ -1306,6 +1307,7 @@ namespace OdinSerializer
         /// <summary>
         /// Not yet documented.
         /// </summary>
+        [Obsolete]
         public static void DeserializeUnityObject(UnityEngine.Object unityObject, ref SerializationData data, DeserializationContext context = null)
         {
             //#if UNITY_EDITOR
@@ -1315,7 +1317,7 @@ namespace OdinSerializer
             //            data = default(SerializationData); // Free all data for GC
             //#endif
         }
-
+        [Obsolete]
         private static void DeserializeUnityObject(UnityEngine.Object unityObject, ref SerializationData data, DeserializationContext context, bool isPrefabData, List<UnityEngine.Object> prefabInstanceUnityObjects)
         {
             if (unityObject == null)
@@ -1329,6 +1331,7 @@ namespace OdinSerializer
             }
 
 #if UNITY_EDITOR
+
             if (OdinPrefabSerializationEditorUtility.HasNewPrefabWorkflow)
             {
                 ISupportsPrefabSerialization supporter = unityObject as ISupportsPrefabSerialization;
@@ -1398,7 +1401,7 @@ namespace OdinSerializer
                 {
                     // The stored format says nodes, but there is no serialized node data.
                     // Figure out what format the serialized bytes are in, and deserialize that format instead
-                    
+
                     DataFormat formatGuess = data.SerializedBytes[0] == '{' ? DataFormat.JSON : DataFormat.Binary;
 
                     try
@@ -1830,7 +1833,7 @@ namespace OdinSerializer
                         }
 #endif
 
-                        message += 
+                        message +=
                             "IF YOU HAVE CONSISTENT REPRODUCTION STEPS THAT MAKE THIS ISSUE REOCCUR, please report it at this issue at 'https://bitbucket.org/sirenix/odin-inspector/issues/526', and copy paste this debug message into your comment, along with any potential actions or recent changes in the project that might have happened to cause this message to occur. " +
                             "If the data dump in this message is cut off, please find the editor's log file (see https://docs.unity3d.com/Manual/LogFiles.html) and copy paste the full version of this message from there.\n\n\n" +
                             "Data dump:\n\n" +
@@ -2526,6 +2529,7 @@ namespace OdinSerializer
 #if UNITY_EDITOR
 
         [UnityEditor.InitializeOnLoad]
+        [Obsolete]
         private static class PrefabSelectionTracker
         {
             private static readonly object LOCK = new object();
@@ -2569,7 +2573,7 @@ namespace OdinSerializer
 
                 //return false;
             }
-
+            [Obsolete]
             private static void OnSelectionChanged()
             {
                 lock (LOCK)
@@ -2683,7 +2687,7 @@ namespace OdinSerializer
                 // Once, this was a 'while count > CACHE_SIZE' loop, but in certain cases that can infinite loop
                 //   so now it's a simpler and harder-to-break for loop with extra debugging clauses in the body.
                 int removeCount = CachedDeserializedModificationTimes.Count - CACHE_SIZE;
-                    
+
                 for (int i = 0; i < removeCount; i++)
                 {
                     object lowestObj = null;

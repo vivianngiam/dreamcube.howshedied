@@ -13,17 +13,8 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.burst": {
-      "version": "1.5.0-pre.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.cinemachine": {
-      "version": "2.6.11",
+      "version": "2.6.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -55,7 +46,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.12",
+      "version": "2.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -64,21 +55,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.inputsystem": {
-      "version": "1.0.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.mathematics": {
-      "version": "1.2.1",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -154,7 +138,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.30",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -195,7 +179,7 @@
       }
     },
     "com.unity.vectorgraphics": {
-      "version": "2.0.0-preview.18",
+      "version": "2.0.0-preview.19",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -222,87 +206,6 @@
         "com.unity.render-pipelines.core": "10.5.1"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.visualscripting": {
-      "version": "1.5.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.ai": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.physics2d": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "jp.keijiro.klak.math": {
-      "version": "1.0.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.klak.motion": {
-      "version": "1.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.klak.timeline.procedural-motion": {
-      "version": "1.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.timeline": "1.4.2",
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.klak.visualscripting": {
-      "version": "1.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.inputsystem": "1.0.2",
-        "com.unity.mathematics": "1.2.1",
-        "com.unity.modules.uielements": "1.0.0",
-        "com.unity.visualscripting": "1.5.2"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.metamesh": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.noiseshader": {
-      "version": "2.0.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.pugrad": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.burst": "1.5.0-pre.3"
-      },
-      "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

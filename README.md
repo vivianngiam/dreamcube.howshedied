@@ -1,10 +1,8 @@
-# dreamcube.itp.pitch.example.unity
-
 # DreamCube Boilerplate Project
 
 This program known as the _Pitch_ is the main software component needed to run for the _DreamCube's_ interactive virtual reality room. The main attraction is an arcade-style ball game using a physical ball tracked in three-dimensions. This repo contains two simple example scenes for modes of interaction.
 
-_For additional details about this project as a whole, you should refer to the [Dreamcube Handbook]()_
+_For additional details about this project as a whole, you should refer to the ~~Dreamcube Handbook~~
 
 
 <!-- TOC -->
@@ -130,7 +128,7 @@ If the file does not exist it will be created using the default values at first 
 1. Open the project with [Unity Hub](https://unity3d.com/get-unity/download). It will prompt you to download the correct version of the Unity editor.
 2. Open the `Assets\_DemoApp\Scenes\Base Scenes\Main_Demo.unity` scene.
 3. Build the project according to [Unity's documentation](https://docs.unity3d.com/Manual/PublishingBuilds.html).
-
+4. Create your own repo, 
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
@@ -138,7 +136,7 @@ If the file does not exist it will be created using the default values at first 
 _The program does not show on the correct displays._<br />
 In the Windows or GPU display manager, the displays should be tiled left to right with indices 1-4. Display 1 should set to the `primary screen`.
 
-_For more detail, you should refer to the ~~~** [Project Handbook]()**_~~~
+For more detail, you should refer to the ~~Dreamcube Handbook~~
 
 <!-- ROADMAP -->
 

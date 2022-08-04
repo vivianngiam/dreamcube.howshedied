@@ -32,7 +32,12 @@ Those are critical for running your project in the DreamCube**
 <!-- Project Details -->
 
 ## Project Details
-Coming soon  
+
+![preview](/Docs/Images/dreamcube-preview.gif "preview")
+
+
+
+
 
 ### Resources
 Coming soon  

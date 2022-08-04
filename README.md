@@ -20,7 +20,6 @@ Those are critical for running your project in the DreamCube**
     - [Resources](#resources)
     - [Requirments for running (in the DreamCube)](#requirments-for-running-in-the-dreamcube)
     - [Dependencies & Frameworks](#dependencies--frameworks)
-- [<<<<<<< HEAD](#-head)
   - [Installation](#installation)
 - [5. Set the configuration file:](#5-set-the-configuration-file)
   - [Usage in Development](#usage-in-development)

@@ -136,7 +136,7 @@ If the file does not exist it will be created using the default values at first 
    
 2. Open Assets/_DemoApp/Scenes/Main  
    
-3. Switch game view to Display 4 or 5  
+3. Switch game view to Display 5 or 6  
     
 4. Hit play and click on the game view to kick the ball  
    

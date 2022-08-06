@@ -50,5 +50,7 @@ Material:
     - Vector1_353fdfc95c7c45c0b945aee9eebb60b0: 1
     - Vector1_d4a89d302d474fc7bd624c2ebfc131b6: 1
     - Vector1_d4a89d302d474fc7bd624c2ebfc131b6_1: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []

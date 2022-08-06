@@ -435,10 +435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916eef277612b8540ad592d5dd41ed4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indicator: {fileID: 847674135}
+  indicator: {fileID: 3738367287256969295, guid: 9ee31665cd2f95d42af9b3e45b05326c, type: 3}
   acceptMulticast: 0
   localIP: 127.0.0.1
-  offset: {x: 1000, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
   port: 8282
   remoteIP: 127.0.0.1
   scale: {x: 1, y: 1, z: 1}

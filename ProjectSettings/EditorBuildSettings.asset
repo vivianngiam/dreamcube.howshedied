@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/_DemoApp/Scenes/Base Scenes/Game.unity
     guid: 701187a5a8babf944a71f8de216accbd
   - enabled: 1
-    path: Assets/_DemoApp/Scenes/Base Scenes/Calibration.unity
-    guid: d81fbce78d2a21f49b2162201a6f4662
-  - enabled: 1
     path: Assets/_DemoApp/Scenes/Base Scenes/ClusterRender.unity
     guid: bc9f45b952e47434e89c3236bcdf4b0a
   - enabled: 1
@@ -23,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_DemoApp/Scenes/Demo Scenes/Splat.unity
     guid: fb609134994fb334a8098009c214fed1
+  - enabled: 1
+    path: Assets/_DemoApp/Scenes/Base Scenes/Calibration.unity
+    guid: b3d1ddd74a699e04abd8c932689b2a50
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 6ecc73b016925134b9c98863934d76e1, type: 2}

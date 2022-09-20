@@ -104,9 +104,6 @@ If the file does not exist it will be created using the default values at first 
 `RTLSLocalIP` - IP of the computer's NIC running this software to which you want to bind RTLS <br />
 `RTLSRemoteIP` - IP of the RTLS Server <br />
 `RTLSPort` - Port of the RTLS <br />
-`LogDirectory` - Serilog file directory <br />
-`LogLevel` - Serilog minimum log level <br />
-`LogName` - Serilog base file name and extension <br />
 `UseASIO`- Audio output to the DSP <br />
 `ASIODriverIndex`- Audio output Index <br />
 `AsioAutoDetectName` - Audio output name <br />
@@ -122,9 +119,6 @@ If the file does not exist it will be created using the default values at first 
   "RTLSLocalIP": "192.168.x.x",
   "RTLSRemoteIP": "192.168.x.x",
   "RTLSPort": 8282,
-  "LogDirectory": "C:\\GameBay\\Logs",
-  "LogLevel": "debug",
-  "LogName": "pitch-.txt",
   "UseASIO": true,
   "ASIODriverIndex" : 0,
   "AsioAutoDetectName" : "RedNet PCIe",

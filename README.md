@@ -2,7 +2,7 @@
 
 This program known as the _Pitch_ is the main software component needed to run for the _DreamCube's_ interactive virtual reality room. The main attraction is an arcade-style ball game using a physical ball tracked in three-dimensions. This repo contains two simple example scenes for modes of interaction.
 
-This project relies on [dreamcube.pitch-app-core](https://github.com/local-projects/dreamcube.pitch-app-core.unity) repo as a submodule.
+This project relies on [dreamcube.itp.pitch.core](https://github.com/local-projects/dreamcube.itp.pitch.core.unity) repo as a submodule.
 Fork this repo and build a new DreamCube experience.
 
 **WARNING: DO NOT make changes to any of the Base Scenes, or Main scene.   

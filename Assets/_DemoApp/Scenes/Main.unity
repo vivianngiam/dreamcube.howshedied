@@ -544,11 +544,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseSceneNamesList:
-  - Game
   - ClusterRender
+  - GameRoom
   - Calibration
-  DemoSceneNames:
-  - Reactive Grids
+  ContentScenesNames:
+  - ReactiveGrids
   - Splat
 --- !u!4 &1627232687
 Transform:
@@ -662,20 +662,13 @@ MonoBehaviour:
     DSPBufferLength: 128
     Debug: 0
     DreamCube: 1
-    LogDirectory: C:\GameBay\Logs
-    LogLevel: information
-    LogName: pitch-.txt
     RTLSLocalIP: 127.0.0.1
     RTLSPort: 8282
     RTLSRemoteIP: 127.0.0.1
     UseASIO: 0
     UseRTLS: 0
     UseMulticast: 0
-    HeartbeatIP: 0.0.0.0
-    HeartbeatPort: 13000
-    UseHeartbeat: 0
     Volume: 1
-  logs: []
   configDidLoad: 0
 --- !u!114 &2666652994386958979
 MonoBehaviour:

@@ -40,8 +40,7 @@ Those are critical for running your project in the DreamCube**
 
 
 ### Resources
-Coming soon  
-
+[DreamCube Boilerplate Documentation](https://docs.google.com/document/d/1qU17cycwCfQY6YHS1GuJ5G8Q9AVFDr5-sjQn6RVZyus/edit?usp=sharing)
 
 
 ### Requirments for running (in the DreamCube)

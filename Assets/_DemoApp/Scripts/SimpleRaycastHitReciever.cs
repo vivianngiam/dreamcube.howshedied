@@ -9,10 +9,12 @@ public class SimpleRaycastHitReciever : RaycastHitReceiver
 {
 
     // Assign a prefab to debug impact point 
-    public GameObject visualObject;
-    public AudioClip collisionSound;
+    public GameObject VisualObject;
+    public AudioClip CollisionSound;
+    public float Volume = 1;
 
-    //hitPoint is in world space right now
+
+    // hitPoint is in world space
     public override void HitByRaycast(Vector3 hitPoint)
     {
         if (debugHitMarker)
@@ -23,12 +25,12 @@ public class SimpleRaycastHitReciever : RaycastHitReceiver
             marker.transform.position = hitPoint - marker.transform.forward * 0.01f;
         }
 
-        if (visualObject)
+        if (VisualObject)
         {
-            AudioManager.Instance.PlaySingle(collisionSound);
-            visualObject
+            AudioManager.Instance.PlaySingle(CollisionSound, Volume);
+            VisualObject
                 .transform.DOLocalRotate(360f * Vector3.right, 1.0f, RotateMode.LocalAxisAdd)
-                .OnComplete(() => visualObject.transform.localRotation = Quaternion.identity);
+                .OnComplete(() => VisualObject.transform.localRotation = Quaternion.identity);
         }
     }
 }

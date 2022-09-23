@@ -24,10 +24,13 @@ public class AudioManager : Singleton<AudioManager>
     }
 
     //Used to play single sound clips.
-    public void PlaySingle(AudioClip clip)
+    public void PlaySingle(AudioClip clip, float volume = 1)
     {
         //Set the clip of our efxSource audio source to the clip passed in as a parameter.
         efxSource.clip = clip;
+
+        // set the volume
+        efxSource.volume = volume;
 
         //Play the clip.
         efxSource.Play();

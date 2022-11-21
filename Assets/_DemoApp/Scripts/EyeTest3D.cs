@@ -14,7 +14,7 @@ public class EyeTest3D : MonoBehaviour
         gameObject.transform.LookAt(target);
     }
 
-    private void FixedUpdate()
+    private void LateUpdate()
     {
         LookAtTarget();
     }
@@ -23,7 +23,7 @@ public class EyeTest3D : MonoBehaviour
     {
         Vector3 direction = target.position - transform.position;
         Quaternion toRotation = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, speed * Time.time);
+        transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, speed * Time.deltaTime);
     }
 
     //private void LateUpdate()

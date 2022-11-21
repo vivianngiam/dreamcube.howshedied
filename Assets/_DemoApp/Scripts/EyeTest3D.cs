@@ -6,10 +6,28 @@ public class EyeTest3D : MonoBehaviour
 {
 
     [SerializeField] private Transform target;
+    public float speed;
 
     void Update()
     {
         // look at the target
         gameObject.transform.LookAt(target);
     }
+
+    private void FixedUpdate()
+    {
+        LookAtTarget();
+    }
+
+    void LookAtTarget()
+    {
+        Vector3 direction = target.position - transform.position;
+        Quaternion toRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, speed * Time.time);
+    }
+
+    //private void LateUpdate()
+    //{
+    //    transform.Translate(0, Time.deltaTime, 0);
+    //}
 }

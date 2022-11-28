@@ -11,7 +11,7 @@ public class EyeTest3D : MonoBehaviour
     void Update()
     {
         // look at the target
-        gameObject.transform.LookAt(target);
+        //gameObject.transform.LookAt(target);
     }
 
     private void LateUpdate()

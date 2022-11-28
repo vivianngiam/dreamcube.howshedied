@@ -4028,7 +4028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7211576390569625762, guid: 0da0e5e745e534915abb938d38c41828, type: 3}
       propertyPath: speed
-      value: 0.2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7211576390569625762, guid: 0da0e5e745e534915abb938d38c41828, type: 3}
       propertyPath: target
@@ -4693,7 +4693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 3732977793686381007}
-  speed: 0.2
+  speed: 10
 --- !u!114 &676686625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6968,7 +6968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7211576390569625762, guid: 0da0e5e745e534915abb938d38c41828, type: 3}
       propertyPath: speed
-      value: 0.2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7211576390569625762, guid: 0da0e5e745e534915abb938d38c41828, type: 3}
       propertyPath: target
@@ -8997,7 +8997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 3732977793686381007}
-  speed: 0.2
+  speed: 10
 --- !u!65 &1342095921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10404,7 +10404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 3732977793686381007}
-  speed: 0.2
+  speed: 10
 --- !u!65 &1641288923
 BoxCollider:
   m_ObjectHideFlags: 0
